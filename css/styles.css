@@ -112,3 +112,8 @@ body {
     display: block;
     margin: 0 auto;
   }
+
+  .cpy {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.274);
+}

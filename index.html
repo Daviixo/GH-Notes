@@ -41,71 +41,65 @@
 
     <div>
 
-        <font size="2">
+        <div class="mb-3 row">
+            <label for="inputCallerName" class="col-sm-4 col-form-label"><strong>Caller's Name</strong></label>
+            <div class="col-sm-7">
+                <input type="text" id="custName" rows="1" cols="30" wrap="soft" class="form-control" id="inputPassword">
+                </strong>
+            </div>
+        </div>
 
-            <!--This is a test-->
+        <div class="mb-3 row">
+            <label for="inputCallerEmail" class="col-sm-4 col-form-label"><strong>Caller's
+                    Email</strong></label>
+            <div class="col-sm-7">
+                <input type="text" id="custEmail" rows="1" cols="30" wrap="soft" class="form-control"
+                    id="inputPassword">
+            </div>
+        </div>
+
+        <div class="mb-3 row">
+            <label for="inputCallBackNo" class="col-sm-4 col-form-label"><strong>Call Back
+                    Phone#</strong></label>
+            <div class="col-sm-7">
+                <input type="text" id="custPhone" rows="1" cols="30" 30" wrap="soft" class="form-control" id="">
+            </div>
+        </div>
+
+        <div class="mb-3 row">
+            <label for="inputCID" class="col-sm-4 col-form-label"><strong>Customer ID</strong></label>
+            <div class="col-sm-7">
+                <input type="text" id="custID" rows="1" cols="30" wrap="soft" class="form-control" id="inputPassword">
+            </div>
+        </div>
+
+        <div class="mb-3 row">
+            <label for="inputPermissions" class="col-sm-4 col-form-label"><strong>Permissions</strong></label>
+            <div class="col-sm-7">
+                <input type="text" id="custPermissions" wrap="soft" class="form-control" id="inputPassword">
+            </div>
+        </div>
+
+
+        <div>
+            <strong>Primary Pin / Billing Info Verified (Yes/No):</strong><br>
+            <select id="optionPin">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select><br><br>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1"><strong>Summary of Issue/Request:</strong></label>
+            <textarea class="form-control" id="custIssue" rows="3"></textarea>
+        </div>
+        <div>
 
             <div class="mb-3 row">
-                <label for="inputCallerName" class="col-sm-3 col-form-label"><strong>Caller's Name</strong></label>
-                <div class="col-sm-7">
-                    <input type="text" id="custName" rows="1" cols="30" wrap="soft" class="form-control"
-                        id="inputPassword">
-                    </strong>
-                </div>
-            </div>
-
-            <div class="mb-3 row">
-                <label for="inputCallerEmail" class="col-sm-3 col-form-label"><strong>Caller's
-                        Email</strong></label>
-                <div class="col-sm-7">
-                    <input type="text" id="custEmail" rows="1" cols="30" wrap="soft" class="form-control"
-                        id="inputPassword">
-                </div>
-            </div>
-
-            <div class="mb-3 row">
-                <label for="inputCallBackNo" class="col-sm-3 col-form-label"><strong>Call Back
-                        Phone#</strong></label>
-                <div class="col-sm-7">
-                    <input type="text" id="custPhone" rows="1" cols="30" 30" wrap="soft" class="form-control" id="">
-                </div>
-            </div>
-
-            <div class="mb-3 row">
-                <label for="inputCID" class="col-sm-3 col-form-label"><strong>Customer ID</strong></label>
-                <div class="col-sm-7">
-                    <input type="text" id="custID" rows="1" cols="30" wrap="soft" class="form-control"
-                        id="inputPassword">
-                </div>
-            </div>
-
-            <div class="mb-3 row">
-                <label for="inputPermissions" class="col-sm-3 col-form-label"><strong>Permissions</strong></label>
-                <div class="col-sm-7">
-                    <input type="text" id="custPermissions" wrap="soft" class="form-control" id="inputPassword">
-                </div>
-            </div>
-
-
-            <div>
-                <strong>Primary Pin / Billing Info Verified (Yes/No):</strong><br>
-                <select id="optionPin">
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                </select><br><br>
-            </div>
-
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1"><strong>Summary of Issue/Request:</strong></label>
-                <textarea class="form-control" id="custIssue" rows="3"></textarea>
-            </div>
-            <div>
-
-            <div class="mb-3 row">
-                <label for="inputPermissions" class="col-sm-3 col-form-label"><strong>GH Phone
+                <label for="inputPermissions" class="col-sm-7 col-form-label"><strong>GH Phone
                         Number/Ext</strong></label>
                 <div class="col-sm-7">
-                    <input type="text" id="custGHPhoneExt" rows="1" cols="30" wrap="soft" class="form-control"
+                    <input type="text" id="custGHPhoneExt" rows="1" cols="36" wrap="soft" class="form-control"
                         id="inputPassword">
                 </div>
             </div>
@@ -116,25 +110,25 @@
             </div>
             <div>
 
-            <div>
-                <strong>Resolution/Escalation(Was issue resolved or escalated?)</strong><br>
-                <select id="custIssueResolved"><br>
-                    <option value="Resolved">Resolved</option>
-                    <option value="Escalated">Escalated</option>
-                </select><br><br>
-            </div>
-            
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1"><strong>Do you have any additional notes?</strong></label>
-                <textarea class="form-control" id="custAdditionalNotes" rows="3"></textarea>
-            </div>
-            <div>
+                <div>
+                    <strong>Resolution/Escalation(Was issue resolved or escalated?)</strong><br>
+                    <select id="custIssueResolved"><br>
+                        <option value="Resolved">Resolved</option>
+                        <option value="Escalated">Escalated</option>
+                    </select><br><br>
+                </div>
 
-            <br>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1"><strong>Do you have any additional notes?</strong></label>
+                    <textarea class="form-control" id="custAdditionalNotes" rows="3"></textarea>
+                </div>
+                <div>
 
-            <!-- End of the test-->
+                    <br>
 
-            <!-- This is the OLD ONE!!!! 
+                    <!-- End of the test-->
+
+                    <!-- This is the OLD ONE!!!! 
             <label>
                 Caller's Name:</label> <br><input id="custName" rows="1" cols="30" wrap="soft"></input><br>
 
@@ -170,26 +164,35 @@
             Do you have any additional notes? <br /><textarea id="custAdditionalNotes" placeholder="N/A" rows="2"
                 cols="52" wrap="soft"></textarea><br /><br>-->
 
-        </font>
+                </div>
 
+
+
+                <button type="button" class="btn btn-success" value="Copy" id="copy" onclick="copyText();">Create
+                    Note</button><br><br>
+
+
+                <button type="button" class="btn btn-danger" onclick="location.reload();">
+                    Reset
+                </button>
+
+                <br><br>
+
+            </div>
+        </div>
     </div>
-
-
-
-    <button type="button" class="btn btn-success" value="Copy" id="copy" onclick="copyText();">Create
-        Note</button><br><br>
-
-
-    <button type="button" class="btn btn-danger" onclick="location.reload();">
-        Reset
-    </button>
-
-    <br><br>
-
 </form>
 
-    <textarea class="test" name="text" id="temp" wrap="soft"></textarea><br><br>
+<textarea class="test" name="text" id="temp" wrap="soft"></textarea><br><br>
 
-
+<div class="cpy">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+             <p>Copyright © 2022 Designed by David Díaz</a></p>
+          </div>
+       </div>
+    </div>
+ </div>
 
 </html>
