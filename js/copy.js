@@ -13,7 +13,7 @@ function copyText() {
     var cTroubleshooting = document.getElementById("custTroubleshooting").value;
 
     var i = document.getElementById("custIssueResolved");
-    var resultIssueResolved = e.options[e.selectedIndex].text;
+    var resultIssueResolved = i.options[i.selectedIndex].text;
 
     var cAdditionalNotes = document.getElementById("custAdditionalNotes").value;
 

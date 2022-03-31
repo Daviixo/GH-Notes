@@ -117,3 +117,12 @@ body {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.274);
 }
+
+.center {
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-decoration-color: yellow;
+  
+}
