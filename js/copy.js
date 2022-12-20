@@ -17,6 +17,9 @@ function copyText() {
 
     var cAdditionalNotes = document.getElementById("custAdditionalNotes").value;
 
+    var x = document.getElementById("optionSurvey");
+    var resultSurvey = x.options[x.selectedIndex].text;
+
     document.getElementById("temp").value =
         "---Caller's Contact information---" +
         "\n" +
@@ -68,6 +71,11 @@ function copyText() {
         "Do you have any additional notes?" +
         "\n" +
         cAdditionalNotes +
+        "\n" +
+        "\n" +
+        "Did you offer the survey?" +
+        "\n" +
+        resultSurvey +
         "\n" +
         "----------------------------";
 
